@@ -1,0 +1,50 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+
+# production
+client/build
+client/dist
+client/.next
+
+# misc
+.DS_Store
+.env
+.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# /api
+api/.database
+api/docker-compose.yml
+api/wp-admin
+api/wp-content/uploads/
+api/wp-content/index.php
+api/wp-content/debug.log
+api/wp-content/themes/twentyfifteen
+api/wp-content/themes/twentysixteen
+api/wp-content/themes/twentyseventeen
+api/wp-content/themes/twentyeighteen
+api/wp-content/themes/twentynineteen
+api/wp-content/plugins/akismet/
+api/wp-content/plugins/hello.php
+api/wp-includes
+api/index.php
+api/license.txt
+api/readme.html
+api/wp-activate.php
+api/wp-blog-header.php
+api/wp-comments-post.php
+api/wp-config-sample.php
+api/wp-config.php
+api/wp-cron.php
+api/wp-links-opml.php
+api/wp-load.php
+api/wp-login.php
+api/wp-mail.php
+api/wp-settings.php
+api/wp-signup.php
+api/wp-trackback.php
+api/xmlrpc.php

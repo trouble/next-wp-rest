@@ -1,0 +1,31 @@
+{
+  "name": "next-wp-rest-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.3.5",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "16.10.1",
+    "react-dom": "16.10.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}

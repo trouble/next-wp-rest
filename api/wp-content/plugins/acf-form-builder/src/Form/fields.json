@@ -1,0 +1,601 @@
+[
+  {
+    "key": "group_5d51e8de8fdee",
+    "title": "Form",
+    "fields": [
+      {
+        "key": "field_5d520f440d7aa",
+        "label": "Fields",
+        "name": "",
+        "type": "tab",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "placement": "left",
+        "endpoint": 0
+      },
+      {
+        "key": "field_5d51e8e3158bc",
+        "label": "Fields",
+        "name": "fields",
+        "type": "flexible_content",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "layouts": {
+          "layout_5d51ed9eb9645": {
+            "key": "layout_5d51ed9eb9645",
+            "name": "ContentBlock",
+            "label": "Content Block",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d51eda3b9646",
+                "label": "Content",
+                "name": "content",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5d51ead0eb1a4": {
+            "key": "layout_5d51ead0eb1a4",
+            "name": "Text",
+            "label": "Text",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d51eb777539f",
+                "label": "Field Type",
+                "name": "fieldType",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "clone": [
+                  "group_5d51eb281abf8"
+                ],
+                "display": "seamless",
+                "layout": "block",
+                "prefix_label": 0,
+                "prefix_name": 0
+              },
+              {
+                "key": "field_5d52c08bb92cf",
+                "label": "Error Message",
+                "name": "errorMessage",
+                "type": "text",
+                "instructions": "Enter an error message for this field.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "Please fill in the field.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5d52c5916b140": {
+            "key": "layout_5d52c5916b140",
+            "name": "Checkbox",
+            "label": "Checkbox",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d52c5916b141",
+                "label": "Field Type",
+                "name": "fieldType",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "clone": [
+                  "group_5d51eb281abf8"
+                ],
+                "display": "seamless",
+                "layout": "",
+                "prefix_label": 0,
+                "prefix_name": 0
+              },
+              {
+                "key": "field_5d52c5916b142",
+                "label": "Error Message",
+                "name": "errorMessage",
+                "type": "text",
+                "instructions": "Enter an error message for this field.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "Please check the box.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              },
+              {
+                "key": "field_5d52c5976b143",
+                "label": "Checked by Default",
+                "name": "checkedByDefault",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5d52c4f3386da": {
+            "key": "layout_5d52c4f3386da",
+            "name": "Textarea",
+            "label": "Textarea",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d52c4f3386db",
+                "label": "Field Type",
+                "name": "fieldType",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "clone": [
+                  "group_5d51eb281abf8"
+                ],
+                "display": "seamless",
+                "layout": "block",
+                "prefix_label": 0,
+                "prefix_name": 0
+              },
+              {
+                "key": "field_5d52c4f3386dc",
+                "label": "Error Message",
+                "name": "errorMessage",
+                "type": "text",
+                "instructions": "Enter an error message for this field.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "Please fill in the field.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              },
+              {
+                "key": "field_5d52c4f7386dd",
+                "label": "Rows",
+                "name": "rows",
+                "type": "number",
+                "instructions": "Enter a number of rows that this textarea should use.  This controls the height of the textarea.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 2,
+                "max": 15,
+                "step": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5d52c57b6b13d": {
+            "key": "layout_5d52c57b6b13d",
+            "name": "Email",
+            "label": "Email",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d52c57b6b13e",
+                "label": "Field Type",
+                "name": "fieldType",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "clone": [
+                  "group_5d51eb281abf8"
+                ],
+                "display": "seamless",
+                "layout": "block",
+                "prefix_label": 0,
+                "prefix_name": 0
+              },
+              {
+                "key": "field_5d52c57b6b13f",
+                "label": "Error Message",
+                "name": "errorMessage",
+                "type": "text",
+                "instructions": "Enter an error message for this field.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "Please enter a valid email.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5d51edbfb9647": {
+            "key": "layout_5d51edbfb9647",
+            "name": "Select",
+            "label": "Select",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5d51edc6b9648",
+                "label": "Field Type",
+                "name": "fieldType",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "clone": [
+                  "group_5d51eb281abf8"
+                ],
+                "display": "seamless",
+                "layout": "block",
+                "prefix_label": 0,
+                "prefix_name": 0
+              },
+              {
+                "key": "field_5d51ede5b9649",
+                "label": "Options",
+                "name": "options",
+                "type": "repeater",
+                "instructions": "Enter options that should be shown within the select field. You may enter the first option as \"Please Select\" with a blank value if you'd like.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "collapsed": "",
+                "min": 1,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Option",
+                "sub_fields": [
+                  {
+                    "key": "field_5d51ee13b964a",
+                    "label": "Value",
+                    "name": "value",
+                    "type": "text",
+                    "instructions": "Enter a value to correspond with the option.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                      "width": "50",
+                      "class": "",
+                      "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                  },
+                  {
+                    "key": "field_5d51ee1eb964b",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "Enter a label to present to the user.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                      "width": "50",
+                      "class": "",
+                      "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                  }
+                ]
+              },
+              {
+                "key": "field_5d52e1884c5cb",
+                "label": "Initial Value",
+                "name": "initialValue",
+                "type": "text",
+                "instructions": "If you would like to preselect an initial value within the select, paste the VALUE exactly as it appears in the Options above.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              },
+              {
+                "key": "field_5d52c0b9b92d1",
+                "label": "Error Message",
+                "name": "errorMessage",
+                "type": "text",
+                "instructions": "Enter an error message for this field.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "default_value": "Please select an option from the dropdown.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          }
+        },
+        "button_label": "Add Field",
+        "min": 1,
+        "max": ""
+      },
+      {
+        "key": "field_5d520f530d7ab",
+        "label": "Options",
+        "name": "",
+        "type": "tab",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "placement": "left",
+        "endpoint": 0
+      },
+      {
+        "key": "field_5d51ec56d45c9",
+        "label": "Submit Button Label",
+        "name": "submitLabel",
+        "type": "text",
+        "instructions": "Enter a label to be used on the Submit button.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Submit",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5d51f98982c11",
+        "label": "Success Message",
+        "name": "successMessage",
+        "type": "text",
+        "instructions": "Enter a message to be used for a successful submission.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Thank you. Your message has been sent.",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5d520f5d0d7ac",
+        "label": "Email Response",
+        "name": "",
+        "type": "tab",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "placement": "left",
+        "endpoint": 0
+      },
+      {
+        "key": "field_5d520f1524255",
+        "label": "Formatting Email Data",
+        "name": "",
+        "type": "message",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "message": "Within the email response subject and body, you can embed field names dynamically by wrapping them in double curly-braces.  For example, if you have a field with the name \"first-name\", to show it in the email body or subject line, you can write something like \"First Name: {{first-name}}\".",
+        "new_lines": "wpautop",
+        "esc_html": 0
+      },
+      {
+        "key": "field_5d520ef624254",
+        "label": "Subject Line",
+        "name": "emailSubject",
+        "type": "text",
+        "instructions": "Enter a subject for the email.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5d520e8924253",
+        "label": "Body",
+        "name": "emailBody",
+        "type": "textarea",
+        "instructions": "Enter HTML for the email body.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5d520fea64a24",
+        "label": "Send To",
+        "name": "sendTo",
+        "type": "text",
+        "instructions": "Enter an email address for where this message should be sent.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "acffb-form"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+  }
+]
