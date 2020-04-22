@@ -43,6 +43,13 @@ After you're up and running, we need to navigate to `http://localhost:8080/wp-ad
 
 Run `yarn dev` or `npm run dev` in the `client` folder and then navigate to http://localhost:3000.
 
+## Included Plugins
+
+We've bundled ACF Pro and a few homegrown plugins that we use on all our production WP sites:
+
+- [TRBL REST API](./api/wp-content/plugins/trbl-rest/README.md)
+- [ACF Form Builder](./api/wp-content/plugins/acf-form-builder/README.md)
+
 ## Questions?
 
 [Email us](mailto:info@trbl.design) or drop by our website at [trbl.design](https://trbl.design).
