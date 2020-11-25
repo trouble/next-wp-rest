@@ -5,7 +5,7 @@ namespace NextWPRest;
 use stdClass;
 
 class Routes {
-	public $namespace = '/custer/v1';
+	public $namespace = '/next-wp-rest/v1';
 
 	public function __construct() {
 			add_action('rest_api_init', function () {

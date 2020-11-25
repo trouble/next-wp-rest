@@ -70,7 +70,7 @@ class Post {
 				$to = $form_data['sendTo'];
 				$subject = $this->replacePlaceholders($form_data['emailSubject'], $body);
 				$body = '<html><body>' . $this->replacePlaceholders($form_data['emailBody'], $body) . '</body></html>';
-				$headers = array('Content-Type: text/html; charset=UTF-8', 'From: Custer Website <wordpress@wp.custerinc.com>');
+				$headers = array('Content-Type: text/html; charset=UTF-8', 'From: [FROM_NAME] Website <wordpress@wp.[SITENAME_HERE].com>');
 
 				$result = wp_mail( $to, $subject, $body, $headers );
 
